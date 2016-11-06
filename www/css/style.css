@@ -1,0 +1,617 @@
+
+/**************************CSS reset start******************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**************************CSS reset finish******************************/
+
+
+body{
+    background-color: #2a3411;
+    font-family : arial, none;
+}
+
+#banner{
+    width:880px;
+    margin:0 auto;
+    padding:0;
+    position:relative;
+    margin-top:20px;
+}
+#ContentBG {
+    width:928px;
+    margin:0 auto;
+    padding:0;
+    /*position:relative;*/
+}
+#logo{
+    width:225px;
+    height:119px;
+    /*margin-left:200px;
+    padding:50px 0 50px 0;?????*/
+}
+
+#menu1 li{
+    list-style-type:none;
+    display:inline;
+    margin-left:20px;/* */
+}
+
+#menu1 li a{
+    font-family : arial, none;
+    font-size: 1.0em;
+    font-style:normal;
+    color: #ffffff;
+    text-decoration:none;
+}
+
+#menu1 li a:hover{
+    background-color:#c7c8c4;
+    color:#2a3411;
+}
+.break{
+    margin-left:20px;
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+#menu1{
+    /*position:absolute;*/
+    width:480px;
+    height:25px;
+    float:right;
+    margin-top:-20px;
+    /*display:none;
+    margin-left:395px;*/
+    
+}
+
+#searchBar{
+    padding-left:100px;
+    padding-top:0;
+    /*position:absolute;
+    margin-left:430px;*/
+    margin-top:-110px;
+    background-image: url(../images/concept2_07.png);/**/
+    background-repeat:no-repeat;
+    width:160px;
+    height:45px;
+    float:right;
+    
+    
+}
+
+#searchBar div{
+    position:absolute;
+    margin-left:7px;
+    margin-top:4px;
+
+}
+#searchBar input{
+    position:relative;
+    border: none;
+    background-color:#c7c8c4;
+    width:120px;
+    margin-top:15px;
+
+}
+#searchBar img{
+    position:absolute;
+    margin-top:10px;
+    height:23px;
+    
+}
+#searchBar button{
+	width:30px;
+	height:35px;
+	padding-top:12px;
+	background:url(../images/concept2_03.png) center;
+	border:none;
+}
+
+#SideBG{
+   background-image:url(../images/server_side_wineclub_06.png);
+   background-repeat:repeat-y;
+   height:1150px;
+   width:928px;
+/*   overflow: scroll;*/
+}
+
+#TopBG{
+    background-image:url(../images/server_side_wineclub_03.png);
+    background-repeat:no-repeat;
+    height:34px;
+    width:928px;
+}
+
+#BottonBG{
+    background-image:url(../images/server_side_wineclub_08.png);
+    background-repeat:no-repeat;
+    height:39px;
+    width:928px;
+}
+
+#Content{
+    width:880px;
+    height:910px;
+    margin:0 auto;
+    padding:0;
+    position:relative;
+}
+
+#Login{
+    width:276px;
+    margin-bottom:20px;
+    /*margin:0;
+    padding:0;*/
+}
+
+.LeftSide{
+    width:276px;
+    height:auto;
+    margin-left:15px;
+    float:left;
+}
+
+.LoginIB{
+    border: none;
+    background-color:#c7c8c4;
+    margin:5px 0 0 10px;
+}
+
+.LoginBG{
+    height:31px;
+    background-image:url(../images/Login_InputBox.png);
+    background-repeat:no-repeat;
+    /*margin-left:;*/
+    margin:10px 0 10px 70px;
+	/*padding:10px 0 10px 70px;*/
+	width:191px;
+	/*border:solid 1px red;*/
+    
+}
+.BoxModel {
+    background-color:#c7c8c4;
+    padding:0;
+    margin-top:0;
+    margin-left:2px;
+    width:268px;
+    border:2px solid #c7c8c4;
+    height:auto;
+}
+
+/*.BoxModel label{
+    margin:10px 0 10px 10px;
+	display:none;
+}*/
+
+#formLI label{
+    margin-left:10px;
+}
+  
+#formLI{
+    margin-top:10px;
+}
+
+.SideCTitle{
+    width:276px;
+    height:40px;
+    background-image:url(../images/SideBanner.png);
+}
+.SmallTitle{
+    padding:10px 0 15px 10px;
+    /*display:none;*/
+}
+#Submit{
+    margin:20px 0 20px 200px;
+}
+
+.col3{
+    color:#990000;
+    float:right;
+    margin-right:35px;
+    font-size:80%;
+}
+
+.pagemsg, .pageMsg{
+    color:#990000;
+    margin: 10px 0 0 10px;
+    font-size: 19px;
+}
+
+
+.PopularDisplay{
+	list-style:none;
+	margin:10px;
+}
+
+.PopularT{
+	float:left;
+	margin-right:10px;
+}
+
+.PopularT a{
+	text-decoration:none;
+	font-size:1.2em;
+}
+
+.PopulatI{
+	float:left;
+}
+/****************************Right Content(HomePage)**********************************/
+#RightSide{
+    width:569px;
+    /*margin-top:-250px;
+    margin-left:311px;*/
+    height:auto;
+    float:right;
+}
+
+
+#NewsNDEvents{
+    border: 2px solid #c7c8c4;
+    width:546px;
+    height:auto;/*350px*/
+    /*margin-top:*/
+}
+
+
+.News{
+    font-style:normal;
+    font-family:  arial, none;
+    font-weight: normal;
+    margin:10px 10px 10px 10px;
+    border-bottom: 2px solid #c7c8c4;
+    width:526px;
+}
+
+.NewsTitle{
+    color:#2a3411;
+    font-size:90%;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+/****************************Right Content(Products Page)**********************************/
+.ProductsShowZone{
+    border: 2px solid #c7c8c4;
+    width:546px;
+    height:auto;
+    overflow:hidden;
+}
+
+/*.imgBox img{
+	margin:10px 0 10px 30px;
+	border:1px solid #c7c8c4;
+}
+.imgBox{
+	width:120px;
+	height:120px;
+	margin-left:10px;
+	float:left;
+}*/
+
+.ProductDisplay{
+    width:540px;
+    height: 150px;
+	margin:20px 0 20px 0;
+}
+
+.PContent{
+    width:380px;
+    height:auto;
+    float:left;
+    margin:10px 10px 10px 10px ;
+}
+
+/*.PContent h3, p{
+    margin-top:5px;
+    width:365px;
+}
+
+.PContent p{
+    font-size:90%;
+}*/
+
+.ProductDisplay img
+{
+	margin:10px 20px 0 20px;
+}
+
+.moreLink{
+    float:right;
+    font-size:90%;
+}
+
+
+
+/****************************Right Content(Register Page)**********************************/
+#RegisterZone{
+    border: 2px solid #c7c8c4;
+    width:546px;
+    height:800px;
+}
+#R_F{
+	width:450px;
+	margin:20px 0 0 20px;
+}
+.clearR{
+	height:30px;
+}
+
+#RegisterZone p{
+    font-size:90%;
+}
+.Register1{
+	float:left;
+	width:200px;
+}
+
+.vMsg{
+    float:right;
+    color:#990000;
+    margin-right:35px;
+    font-size:80%;
+}
+
+
+/****************************Right Content(Register Page)**********************************/
+#SendEmailZone{
+    border: 2px solid #c7c8c4;
+    width:546px;
+    height:auto;
+}
+
+
+/****************************Right Content(Contact Page)**********************************/
+#Message{
+	width:400px;
+	height:200px;
+	margin-top:10px;
+}
+
+.Uname{
+	color:#247CDC;
+	float:left;
+	margin-left:10px;
+}
+
+.Ra{
+	float:left;
+}
+
+.col1{
+	float:left;
+	margin:10px 5px 0 25px;
+}
+
+.sub{
+
+	margin:10px 5px 20px 420px;
+}
+
+.recomment{
+	border-bottom: 2px solid #c7c8c4;
+	margin:10px 0 20px 10px;
+}
+
+.deleteLink{
+	float:left;
+	margin-left:30px;
+	font-size:0.8em;
+}
+
+#UserName{
+	margin-left:140px;
+}
+
+
+/****************************Right Content(Show products)**********************************/
+#ShowProductZone{
+    border: 2px solid #c7c8c4;
+    width:546px;
+    height:auto;
+    
+}
+
+#CommentArea{
+	margin:15px 0 0 10px;
+	width:300px;
+}
+
+.CommentAreaTitle{
+	float:left;
+	margin:15px 0 0 10px;
+	
+}
+.CommentDisplay{
+	height:450px;
+	overflow: scroll;
+	margin-top: 20px;
+}
+#ComTile{
+	border-bottom: 2px dashed #c7c8c4;
+	margin-bottom:15px;
+	margin-top:20px;
+	margin-left:10px;
+}
+.PicDisplay, .ProductDetail{
+	margin:10px 0 0 10px;
+}
+
+.PC{
+	font-size:1.2em;
+	text-decoration:none;
+}
+
+/****************************Right Content(SearchPage)**********************************/
+.Stitle{
+	font-size:1.2em;
+}
+
+.SearchPContent, #SMessage{
+	margin:10px 0 5px 10px;
+}
+
+.moreLink{
+	margin-right:10px;
+}
+
+
+
+/****************************Admin View**********************************/
+.editLink{
+    float:right;
+    margin-right:10px;
+}
+
+.clear{
+    height:10px;
+}
+
+.col2{
+    margin:15px 0 0 80px;
+}
+.col2u{
+    margin: 15px 0 0 200px;
+    width:240px;
+}
+
+#editform{
+     margin-top:10px;
+}
+#PSum{
+     margin-left:40px;
+}
+#PCont{
+     margin-left:50px;
+}
+.submitButton{
+     margin:15px 0 0 370px;
+}
+.product_title{
+	font-size:1.4em;
+	font-weight:100;
+	color:#3371C6;
+	padding:10px;
+}
+
+/***********************************footer nav********************************/
+#menu2 li{
+    list-style-type:none;
+    display:inline;
+    margin-left:20px;/* */
+}
+
+#menu2 li a{
+    /*font-family : arial, none;*/
+    font-size: 0.8em;
+    font-style:normal;
+    color: #ffffff;
+    text-decoration:none;
+}
+
+#menu2 li a:hover{
+    background-color:#c7c8c4;
+    color:#2a3411;
+}
+
+#menu2{
+    /*position:absolute;*/
+    width:350px;
+    height:25px;
+    margin:0 auto;
+    padding:0;
+    position:relative;
+    /*margin-top:-40px;
+    display:none;
+    margin-left:395px;*/
+    
+}
+
+#copyright{
+    font-size: 0.8em;
+    width:335px;
+    margin:0 auto;
+    padding:0;
+    margin-bottom:20px;
+}
+
+.delform
+{
+	margin-left:10px;
+}
+
+.bigImage img
+{
+	margin-left:10px;
+}
+.col1a
+{
+	margin-left:25px;
+}
+
+.pagehead
+{
+	margin:10px 0 0 10px;
+}
+
+/*.imgBox img
+{
+	height:120px;
+}*/
+
+/*.ProductDisplay
+{
+	padding:10px 0 20px 0;
+}*/
